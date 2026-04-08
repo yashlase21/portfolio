@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 
-const ACC = "#f5c518";
-const ACC2 = "#d4a800";
+const ACC = "#e84545";
+const ACC2 = "#c73535";
 
 const NAV_LINKS = ["About", "Skills", "Projects", "Experience", "Education", "Contact"];
 
@@ -251,8 +251,7 @@ function Hero() {
 // ---- Stats Bar ----
 function Stats() {
   const items = [
-    { val: "5+", label: "Projects Completed" },
-    { val: "200+", label: "Active Users" },
+{ val: "200+", label: "Active Users" },
     { val: "15+", label: "Technologies" },
     { val: "1", label: "Internship" },
   ];
